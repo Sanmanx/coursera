@@ -78,6 +78,10 @@ p{
   float: right;
   background-color: #FF69B4;
 }
+/*** Responsive Framework. ***/
+.row{
+  width: 100%;
+}
 /******** Desktop View ********/
 @media (min-width: 992px;) and (max-width: 1200px){
   .box1 {
