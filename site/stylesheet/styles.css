@@ -104,18 +104,21 @@ p{
 @media (min-width: 768px) and (max-width: 991px){
   .box1{
     width: 40%;
-    margin-left: 57px;
-    margin-right: 20px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 0px;
 
   }
     .box2{
-        float: right;
+    float: right;
     width: 40%;
+    height: auto;
     margin-right: 40px;
     margin-left: 40px;
   }
     .box3{
       width: 90%;
+      height: auto;
       margin-right: 40px;
       margin-left: 30px;
 
@@ -132,6 +135,6 @@ p{
   }
   .box3{
     width: 90%;
-    margin-right: 60px;
+    margin-right: 20px;
   }
   }
