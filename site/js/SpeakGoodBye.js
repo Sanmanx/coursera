@@ -10,9 +10,9 @@
 // See Lecture 52, part 1
 // var byeSpeaker =
 var byeSpeaker = {};
-byeSpeaker.name = "Good Bye";
-byeSpeaker.speak = function () {
-	console.log(byeSpeaker + " " + byeSpeaker.name);
+byeSpeaker.speak = function (name) {
+	var speakWord = "Good Bye";
+	console.log(speakWord + " " + name);
 }
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
